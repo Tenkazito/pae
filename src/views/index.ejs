@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="/styles/index.css" type="text/css">
+    <head>
+        <title>Inicio de Sesion</title>
+    </head>
+    <body>
+        <br><br>
+        <div id="marco_inicio_sesion">
+            
+            <form action="/login" method="post"><br><br>
+                <h1>INICIO DE SESION</h1><br>
+                <h3>¡Inicie sesion para acceder a las diferentes facilidades!</h3><br>
+                <input type="text" placeholder="Usuario" name="usuario" required><br><br>
+                <input type="number" placeholder="Identificacion" name="identificacion" required><br><br><br>
+                <input type="submit" placeholder="Iniciar sesion" value="enviar"></input>
+            </form> 
+
+            <% if (typeof msg != "undefined") { %>
+                <p><%= msg %></p>
+            <% } %>
+
+        </div>
+    </body>
+</html>

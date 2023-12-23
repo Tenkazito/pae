@@ -1,0 +1,81 @@
+* {
+    font-family: 'Lobster', cursive;
+}
+
+body {
+    background-color: #EAF2E3;
+}
+
+header {
+    border-bottom: 1px dashed black;
+    height: 65px;
+    background-color: #FFF87F;
+    border-top: 0.5px solid black;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+}
+
+header #boton {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    border-right: 1px dashed black;
+}
+
+header #texto {
+    width: 80%;
+    left: 13%;
+    bottom: 125%;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    font-size: 90%;
+    padding: 10px;
+}
+
+header a {
+    position: relative;
+    left: 28%;
+    top: 33%;
+    padding: auto;
+    background-color: #F4F1BB;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 0.25em;
+}
+
+header button a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    border-top: 0.5px dashed black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#frase {
+    margin-top: 30px;
+}
+
+#botones {
+    text-align: center;
+    position: relative;
+}
+
+.botonp {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    margin: 7px;
+    border: dashed 2px;
+    background-color: #F4F1BB;
+}
+
+img {
+    width: 70%;
+    height: 70%;
+    position: relative;
+}

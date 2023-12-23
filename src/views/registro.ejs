@@ -1,0 +1,46 @@
+<head>
+    <title>REGISTRAR</title><link rel="stylesheet" href="styles\registro.css">
+</head>
+<body>
+    <header>
+        <div id="boton">
+            <a href="/pp" class="button" size="90" >Menu Principal</a>
+        </div>
+        <div id="texto">
+            <h1>Aqui puedes registrar nuevos estudiantes</h1>
+        </div>
+    </header>
+    <br>
+    <div id="marco_inicio_sesion">
+
+        <% if (typeof msg != "undefined") { %>
+            <p><%= msg %></p>
+        <% } %>
+
+        <form action="/registro" method="post">
+            <h3>DATOS</h3>
+            <input type= “text” placeholder="Nombre" class="nombre" name="nombre"> 
+            <br><br>
+            <input type= “text” placeholder="documento" class="documento" name="documento"> 
+            <br><br>
+            <select name="grupo">
+                <option value="6-1">6-1</option>
+                <option value="6-2">6-2</option>
+                <option value="7-1">7-1</option>
+                <option value="7-2">7-2</option>
+                <option value="8-1">8-1</option>
+                <option value="8-2">8-2</option>
+                <option value="9-1">9-1</option>
+                <option value="9-2">9-2</option>
+                <option value="10-1">10-1</option>
+                <option value="10-2">10-2</option>
+                <option value="11-1">11-1</option>
+                <option value="11-2">11-2</option>
+            </select>
+            <h4>Huella</h4>
+            <img src="images\fingerprint.png">
+            <br>
+            <input type="submit" placeholder="enviar"></input>
+        </form>
+    </div>
+</body>

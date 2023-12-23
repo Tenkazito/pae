@@ -1,0 +1,82 @@
+* {
+    font-family: 'Lobster', cursive;
+}
+
+body {
+    background-color: #EAF2E3;
+}
+
+header {
+    border-bottom: 1px dashed black;
+    height: 65px;
+    background-color: #C5D6E7;
+    border-top: 0.5px solid black;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+}
+
+header #boton {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    border-right: 1px dashed black;
+}
+
+header #texto {
+    width: 80%;
+    left: 20%;
+    bottom: 115.5%;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    font-size: 90%;
+}
+
+header a {
+    position: relative;
+    left: 28%;
+    top: 33%;
+    padding: auto;
+    background-color: #F4F1BB;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 7px;
+    border-radius: 0.25em;
+}
+
+header button a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#marco_inicio_sesion {
+    border: 3.5px solid black;
+    background-color: #F4F1BB;
+    border-radius: 5%;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+#marco_inicio_sesion button {
+    border: 2px solid black;
+    background-color: #C5D6E7;
+    color: black;
+    height: 35px;
+}
+
+#marco_inicio_sesion h3 {
+    font-size: 35px;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+}
+
+.tony {
+    height: 200px;
+    width: 200px;
+}

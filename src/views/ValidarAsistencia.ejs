@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Estudiantes Registrados</title><link rel="stylesheet" href="styles/ValidarAsistencia.css">
+    </head>
+    <body>
+        <header>
+            <div id="boton">
+                <a href="/pp" class="button" size="90" >Menu Principal</a>
+            </div>
+            <div id="texto">
+                <h1>Validacion de Asistencia</h1>
+            </div>
+        </header>
+        <div id="validaciones">
+                <a href="V_asistencia.html" class="button">
+                    <h2>Permita la huella dactilar</h2>
+                    <img src="images/fingerprint.png">
+                </a>
+        </div>
+
+        <div class="boton">
+            <form action="/ValidarAsistencia" method="post">
+                <h1>Validacion alternativa</h1>
+                <br><br><br>
+                <input type="text" placeholder="Documento" name="documento">
+                <br><br><br><br><br><br>
+                <input type="submit" class="prueba" placeholder="Validar"></input>
+            </form>
+
+            <% if (typeof msg != "undefined") { %>
+                <p><%= msg %></p>
+            <% } %>
+
+        </div>
+        
+    </body>
+</html>

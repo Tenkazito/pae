@@ -1,0 +1,29 @@
+<head>
+    <title>Desactivar</title><link rel="stylesheet" href="styles\registro.css">
+</head>
+<body>
+    <header>
+        <div id="boton">
+            <a href="/pp" class="button" size="90" >Menu Principal</a>
+        </div>
+        <div id="texto">
+            <h1>Aqui puedes desactivar estudiantes</h1>
+        </div>
+    </header>
+    <br><br>
+    <div id="marco_inicio_sesion">
+
+        <% if (typeof msg != "undefined") { %>
+            <p><%= msg %></p>
+        <% } %>
+
+        <form action="/EliminarUsuario" method="post">
+            <h3>DATOS</h3>
+            <input type= “text” placeholder="documento" class="documento" name="documento"> 
+            <br><br>
+            <img src="images/srstark.jpg" class="tony">
+            <br><br>
+            <input type="submit" placeholder="enviar"></input>
+        </form>
+    </div>
+</body>
